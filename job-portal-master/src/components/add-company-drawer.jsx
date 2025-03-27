@@ -27,7 +27,7 @@ const schema = z.object({
         file[0] &&
         (file[0].type === "image/png" || file[0].type === "image/jpeg"),
       {
-        message: "Only Images are allowed",
+        message: "Only png & jpeg Images are allowed",
       }
     ),
 });
